@@ -10,7 +10,7 @@ button {
     border: 1px solid #0001;
   }
   
-  button:hover {
+button:hover {
     color: #00a3f5;
     border: 1px solid #ffce5c22;
   }
@@ -18,5 +18,9 @@ button {
 .functions button:hover, 
 .math-operations button:hover {
   color: #b696a0;
+}
+
+.button-long-text {
+   font-size: 14px; 
 }
 

@@ -1,0 +1,12 @@
+.functions {
+    float: left;
+    width: 240px;
+  }
+
+
+.functions button{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    color: #d63c6b
+  }  
