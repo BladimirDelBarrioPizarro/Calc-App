@@ -1,0 +1,9 @@
+{
+    "sum":"+",
+    "substraction":"-",
+    "division":"/",
+    "multiplication":"*",
+    "equals":"=",
+    "clear":"Clear",
+    "remove":"Remove"
+}

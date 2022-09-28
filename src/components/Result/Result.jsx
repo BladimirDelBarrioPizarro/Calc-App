@@ -4,13 +4,12 @@ import './Result.css'
 
 
 
-const Result = ({value}) => {
-    return (
-        <div className="result">
-            <span>{value}</span>
-        </div>
-    )
-}
+const Result = ({value}) => (
+    <div className="result">
+      <span>{value}</span>
+    </div>
+ )
+
 
 Result.propTypes = {
     value: PropTypes.string.isRequired
