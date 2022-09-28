@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### JSX
+JSX es una extensión al lenguaje script con una especificación
+
+propuesta por Facebook que tiene una sintaxis similar a XML y no tiene una semántica definida.
+
+Es decir, los tags no tienen una representación con significancia tal como tiene HTML.
+
+### Arrow Functions
+Son funciones anónimas. No están relacionadas con métodos ni pueden ser usadas como constructores.
+
+### SOLID
+S -> Single Responsability
+O -> Open Closed 
+L -> Liskov substitution
+I -> Interfaz Segregation
+D -> Dependency inversion
