@@ -1,8 +1,8 @@
 import React from 'react'
-import PropTypes, { func } from 'prop-types'
+import PropTypes from 'prop-types'
 import Button from '../Button/Button'
 import i18n from './i18n.json'
-import './MathOp.css'
+
 
 const MathOp = ({onClickOperation, onClickEqual}) => (
   <section className="math-operations">
@@ -11,7 +11,7 @@ const MathOp = ({onClickOperation, onClickEqual}) => (
     <Button text={i18n.multiplication} handleOnClick={onClickOperation}/>
     <Button text={i18n.division} handleOnClick={onClickOperation}/>
     <Button text={i18n.equals} handleOnClick={onClickEqual}/>
-</section>
+  </section>
 )
 
 MathOp.propTypes = {

@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../Button/Button'
+import Functions from '../Functions/Functions'
 import MathOp from '../MathOp/MathOp'
 import Result from '../Result/Result'
 import './App.css'
@@ -29,12 +30,13 @@ const App = () => {
                     <Button text={i18n.nine} handleOnClick={clickHandlerFunction}/>
                     <Button text={i18n.cero} handleOnClick={clickHandlerFunction}/>
             </div>
-            <div className="functions">
-                    <button>{i18n.remove}</button>
-                    <button>{i18n.clear}</button>
-            </div>
+          
+            <Functions onContentClear={() => console.log("clear")} 
+                       onDelete={() => console.log("delete")} />
+            
             <div className="math-operations">
-                <MathOp/>
+                <MathOp onClickOperation={operation => console.log(operation)} 
+                        onClickEqual={equal => console.log(equal)}/>
             </div>
         </main>
     )
