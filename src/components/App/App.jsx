@@ -12,10 +12,11 @@ const App = () => {
     const [stack,setStack] = useState('')
     const items = words(stack,/[^-^+^*^/]/g)
     console.log('items: ',items)
+    const value  = items.length > 0 ? items[items.length -1]:0
     return(
         <main className='react-calculator'>
             <h1>{i18n.Title}</h1>
-            <Result value={items[items.length -1]} />
+            <Result value={value} />
             <Numbers onClickNumber={number => setStack(`${stack}${number}`)}/>
             <Functions onContentClear={() => setStack('')} 
                        onDelete={() => {
