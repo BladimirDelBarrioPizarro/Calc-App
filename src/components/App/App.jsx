@@ -11,7 +11,6 @@ import i18n from './i18n.json'
 const App = () => {
     const [stack,setStack] = useState('')
     const items = words(stack,/[^-^+^*^/]/g)
-    console.log('items: ',items)
     const value  = items.length > 0 ? items[items.length -1]:'0'
     return(
         <main className='react-calculator'>
